@@ -10,7 +10,7 @@ import Certifications from "./Pages/Certifications";
 
 function App() {
   return (
-    <Router basename="/nombre-repositorio">
+    <Router basename="/portfolio">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
